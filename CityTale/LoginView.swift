@@ -10,7 +10,7 @@ import SwiftUI
 struct LoginView: View {
     @State var usernameText: String = ""
     @State var emailText: String = ""
-    @State var loginPressed: Bool = false
+    @Binding var loginPressed: Bool
     
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \User.username, ascending: true)],
@@ -47,6 +47,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginView(loginPressed: .constant(false))
     }
 }

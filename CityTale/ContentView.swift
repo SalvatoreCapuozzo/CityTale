@@ -45,7 +45,7 @@ struct ContentView: View {
                     Text("Select an item")
                 }
             } else {
-                LoginView()
+                LoginView(loginPressed: $isLogged)
             }
         }
         .onAppear {
