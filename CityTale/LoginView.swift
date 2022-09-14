@@ -18,17 +18,25 @@ struct LoginView: View {
     private var items: FetchedResults<User>
     
     var body: some View {
-        VStack {
-            Text("Welcome to CityTale!")
-            TextField("username", text: $usernameText)
-            TextField("email", text: $emailText)
-            Button {
-                self.loginPressed.toggle()
-            } label: {
-                Text("Accedi")
-            }
+        NavigationView{
+            Form {
+                Section {
+                    TextField("username", text: $usernameText)
+                    TextField("email", text: $emailText)
+                        .keyboardType(.emailAddress)
+                }
+                
+                Section{
+                    Button {
+                        self.loginPressed.toggle()
+                    } label: {
+                        Text("Accedi")
+                    }
+                }
+            }.navigationTitle("Parlaci di te")
+                .padding(.bottom,16)
         }
-        .padding(.horizontal, 16)
+    
         .onChange(of: loginPressed) { newValue in
             if newValue {
                 UserDefaults.standard.set(emailText, forKey: "loggedEmail")
