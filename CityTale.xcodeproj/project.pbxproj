@@ -18,6 +18,11 @@
 		871E28FC28D131B800219BBB /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E28FA28D131B800219BBB /* User+CoreDataProperties.swift */; };
 		871E28FE28D1351300219BBB /* ParametersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E28FD28D1351300219BBB /* ParametersView.swift */; };
 		871E290028D1395200219BBB /* ParametersEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E28FF28D1395200219BBB /* ParametersEnums.swift */; };
+		871E290228D31C8B00219BBB /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E290128D31C8B00219BBB /* Destination.swift */; };
+		871E290428D33AAF00219BBB /* citytale.json in Resources */ = {isa = PBXBuildFile; fileRef = 871E290328D33AAF00219BBB /* citytale.json */; };
+		871E290628D364AD00219BBB /* ParametersInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E290528D364AD00219BBB /* ParametersInput.swift */; };
+		871E290828D3667400219BBB /* DataCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E290728D3667400219BBB /* DataCollector.swift */; };
+		871E290A28D3747D00219BBB /* citytale_type.json in Resources */ = {isa = PBXBuildFile; fileRef = 871E290928D3747C00219BBB /* citytale_type.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		871E28FA28D131B800219BBB /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "CityTale/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		871E28FD28D1351300219BBB /* ParametersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersView.swift; sourceTree = "<group>"; };
 		871E28FF28D1395200219BBB /* ParametersEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersEnums.swift; sourceTree = "<group>"; };
+		871E290128D31C8B00219BBB /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		871E290328D33AAF00219BBB /* citytale.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citytale.json; sourceTree = "<group>"; };
+		871E290528D364AD00219BBB /* ParametersInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersInput.swift; sourceTree = "<group>"; };
+		871E290728D3667400219BBB /* DataCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollector.swift; sourceTree = "<group>"; };
+		871E290928D3747C00219BBB /* citytale_type.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citytale_type.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +77,16 @@
 		871E28DF28D12FA900219BBB /* CityTale */ = {
 			isa = PBXGroup;
 			children = (
+				871E290928D3747C00219BBB /* citytale_type.json */,
+				871E290328D33AAF00219BBB /* citytale.json */,
 				871E28E028D12FA900219BBB /* CityTaleApp.swift */,
 				871E28E228D12FA900219BBB /* ContentView.swift */,
 				871E28F328D12FE400219BBB /* LoginView.swift */,
 				871E28FD28D1351300219BBB /* ParametersView.swift */,
 				871E28FF28D1395200219BBB /* ParametersEnums.swift */,
+				871E290128D31C8B00219BBB /* Destination.swift */,
+				871E290728D3667400219BBB /* DataCollector.swift */,
+				871E290528D364AD00219BBB /* ParametersInput.swift */,
 				871E28E428D12FAE00219BBB /* Assets.xcassets */,
 				871E28E928D12FAE00219BBB /* Persistence.swift */,
 				871E28EB28D12FAE00219BBB /* CityTale.xcdatamodeld */,
@@ -146,7 +161,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871E290428D33AAF00219BBB /* citytale.json in Resources */,
 				871E28E828D12FAE00219BBB /* Preview Assets.xcassets in Resources */,
+				871E290A28D3747D00219BBB /* citytale_type.json in Resources */,
 				871E28E528D12FAE00219BBB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,8 +178,11 @@
 				871E28ED28D12FAE00219BBB /* CityTale.xcdatamodeld in Sources */,
 				871E28EA28D12FAE00219BBB /* Persistence.swift in Sources */,
 				871E28FB28D131B800219BBB /* User+CoreDataClass.swift in Sources */,
+				871E290828D3667400219BBB /* DataCollector.swift in Sources */,
+				871E290628D364AD00219BBB /* ParametersInput.swift in Sources */,
 				871E290028D1395200219BBB /* ParametersEnums.swift in Sources */,
 				871E28FC28D131B800219BBB /* User+CoreDataProperties.swift in Sources */,
+				871E290228D31C8B00219BBB /* Destination.swift in Sources */,
 				871E28E328D12FA900219BBB /* ContentView.swift in Sources */,
 				871E28F428D12FE400219BBB /* LoginView.swift in Sources */,
 				871E28FE28D1351300219BBB /* ParametersView.swift in Sources */,

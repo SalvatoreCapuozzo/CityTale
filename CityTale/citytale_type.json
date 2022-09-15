@@ -1,0 +1,27 @@
+[
+  {
+    "Tipologia": "Architettura",
+    "VisitaCulturale": 0.35,
+    "NaturaRelax": 0.15
+  },
+  {
+    "Tipologia": "Urbanistica",
+    "VisitaCulturale": 0.15,
+    "NaturaRelax": 0.35
+  },
+  {
+    "Tipologia": "Museo",
+    "VisitaCulturale": 0.7,
+    "NaturaRelax": 0
+  },
+  {
+    "Tipologia": "Parco",
+    "VisitaCulturale": 0.05,
+    "NaturaRelax": 0.45
+  },
+  {
+    "Tipologia": "Sito archeologico",
+    "VisitaCulturale": 0.25,
+    "NaturaRelax": 0.25
+  }
+]

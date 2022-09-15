@@ -52,6 +52,10 @@ struct ContentView: View {
             if UserDefaults.standard.string(forKey: "loggedEmail") != nil && UserDefaults.standard.string(forKey: "loggedEmail") != "" {
                 self.isLogged = true
             }
+            for dest in DataCollector.shared.destinationsList {
+                print(dest.title, dest.aimWeights[DestinationAim.culturalVisit] ?? -1, dest.aimWeights[DestinationAim.natureRelax] ?? -1)
+            }
+            
         }
         
     }
